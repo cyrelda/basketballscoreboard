@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home-score">
+                <h3 class="home-title">HOME</h3>
+                <div class="home-score-background">
+                    <h3 id="home-score-el">0</h3>
+                </div>
+                    <button class="btn" id="one-pointer-el" onclick="plusOneHome()"> +1 </button>
+                    <button class="btn" id="two-pointer-el" onclick="plusTwoHome()"> +2 </button>
+                    <button class="btn" id="three-pointer-el" onclick="plusThreehome()"> +3 </button>             
+            </div>
+            
+            <div class="guest-score">
+                <h3 class="guest-title">GUEST</h3>
+                <div class="guest-score-background">
+                    <h3 id="guest-score-el">0</h3>
+                </div>
+                    <button class="btn" id="one-pointer-el" onclick="plusOneGuest()"> +1 </button>
+                    <button class="btn" id="two-pointer-el" onclick="plustTwoGuest()"> +2 </button>
+                    <button class="btn" id="three-pointer-el" onclick="plusThreeGuest()"> +3 </button>             
+            </div>
+        </div>
+        <button id="new-game-btn">New Game</button> 
+        <script src="index.js"></script>
+    </body>
+</html>
